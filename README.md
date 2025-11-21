@@ -1,142 +1,61 @@
+# Shreeprasandh's Portfolio
+
+Welcome to my interactive 3D portfolio website! This project showcases my journey as a developer, featuring animated 3D models, smooth transitions, and a responsive design built with modern web technologies.
+
+## 🛠️ Tech Stack
+
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
-      <img src="public/images/readme.png" alt="Project Banner">
-    </a>
-  <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
-
-  <h3 align="center">Interactive 3D Portfolio Website</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 👨‍💻 About Me
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
-6. 🚀 [More](#more)
+I'm Shreeprasandh, a passionate developer with over 2 years of coding experience, having built 8+ real-world projects and solved 150+ problems. My journey started in March 2020, evolving through stages of learning and growth.
 
-## ⚠️ Tutorial
+### Key Abilities
+- **Obsessed With Learning**: I dive deep into concepts, from algorithms to architecture, driven by curiosity.
+- **AI-Driven Problem Solver**: Leveraging AI to think faster and build smarter solutions.
+- **Growth-Focused Developer**: Every project teaches me something new, fueling continuous improvement.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+## 🚀 Experience
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+### The Build Stage (January 2024 - Present)
+Developed full-fledged applications like Rakthro, EV Guard, and HealLink. Focused on scalable architectures, deployment, and long-term technical planning.
 
-<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+### The Grind Stage (June 2021 - December 2023)
+Built core skills in Java, DSA, Git, and more. Worked on academic and personal projects with discipline, adopting clean coding and debugging practices.
 
-## <a name="introduction">🤖 Introduction</a>
+### The Spark Stage (March 2020 - May 2021)
+Explored web development basics (HTML, CSS, scripts) and foundational programming, developing problem-solving habits.
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+## 💼 Skills
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+- **AI-React Developer**: Proficient in React and AI integration.
+- **Python Developer**: Skilled in Python for various applications.
+- **Backend Developer**: Experienced with Node.js for server-side development.
+- **Prompt Engineer**: Expertise in crafting prompts for AI tools.
+- **Project Manager**: Managing projects with Git and version control.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+## 📂 Projects
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+- **Rakthro**: A complete application focused on [brief description if available].
+- **EV Guard**: Developed for electric vehicle security and management.
+- **HealLink**: A health-related application linking services.
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+## 📞 Contact
 
-## <a name="features">🔋 Features</a>
+Feel free to reach out via my social platforms:
 
-### Features of the 3D Portfolio Project
+- [X (Twitter)](https://x.com/shreeprasandh/)
+- [Instagram](https://www.instagram.com/shree_prasandh/)
+- [LinkedIn](https://www.linkedin.com/in/shreeprasandh-k/)
 
-👉 Animated 3D models and reveal animations
+---
 
-👉 Realistic lighting and shadows
-
-👉 GSAP-powered scroll interactions
-
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
-
-👉 Micro Interactions
-
-👉 Multi-section layout (About, Projects, Contact)
-
-👉 Mobile optimized 3D experience
-
-and many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
-```
-
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
-
-
-## <a name="links">🔗 Assets and Snippets</a>
-
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
-
-<a href="https://jsm.dev/pfolio25-kit" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
-</a>
-
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with JSM Pro Courses**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://beta.jsmastery.pro/" target="_blank">
-  <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a>
+*This portfolio is built with passion and showcases my dedication to growth and innovation in tech.*
