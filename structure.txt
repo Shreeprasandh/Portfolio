@@ -1,0 +1,108 @@
+Project Structure:
+
+- .gitignore
+- eslint.config.js
+- index.html
+- package-lock.json
+- package.json
+- README.md
+- TODO.md
+- vite.config.js
+- public/
+  - vite.svg
+  - images/
+    - arrow-down.svg
+    - arrow-right.svg
+    - bg.png
+    - chat.png
+    - client1.png
+    - client2.png
+    - client3.png
+    - client4.png
+    - client5.png
+    - client6.png
+    - code.svg
+    - concepts.svg
+    - designs.svg
+    - devices.png
+    - fav.png
+    - gold-star.png
+    - ideas.svg
+    - insta.png
+    - linkedin.png
+    - logo1.png
+    - logo2.png
+    - logo3.png
+    - menu.svg
+    - person.png
+    - project1.png
+    - project2.png
+    - project3.png
+    - seo.png
+    - star.png
+    - time.png
+    - x.png
+    - x.svg
+    - logos/
+      - company-logo-1.png
+      - company-logo-2.png
+      - company-logo-3.png
+      - company-logo-4.png
+      - company-logo-5.png
+      - company-logo-6.png
+      - company-logo-7.png
+      - company-logo-8.png
+      - company-logo-9.png
+      - company-logo-10.png
+      - company-logo-11.png
+      - git.svg
+      - node.png
+      - python.svg
+      - react.png
+      - three.png
+    - textures/
+      - mat1.png
+  - models/
+    - computer-optimized-transformed.glb
+    - computer-optimized.glb
+    - git-svg-transformed.glb
+    - node-transformed.glb
+    - optimized-room.glb
+    - python-transformed.glb
+    - react_logo-transformed.glb
+    - three.js-transformed.glb
+- src/
+  - App.jsx
+  - index.css
+  - main.jsx
+  - components/
+    - AnimatedCounter.jsx
+    - Button.jsx
+    - ExpContent.jsx
+    - GlowCard.jsx
+    - NavBar.jsx
+    - TitleHeader.jsx
+    - models/
+      - contact/
+        - Computer.jsx
+        - ContactExperience.jsx
+      - hero_models/
+        - HeroExperience.jsx
+        - HeroLights.jsx
+        - Particles.jsx
+        - Room.jsx
+      - tech_logos/
+        - TechIconCardExperience.jsx
+  - constants/
+    - index.js
+  - sections/
+    - Codingjourney.jsx
+    - Contact.jsx
+    - FeatureCards.jsx
+    - Footer.jsx
+    - Hero.jsx
+    - LogoShowcase.jsx
+    - Quotes.jsx
+    - ShowcaseSection.jsx
+    - Skills.jsx
+    - TechStack.jsx

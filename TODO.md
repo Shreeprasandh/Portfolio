@@ -1,3 +1,7 @@
-# TODO: Redesign README.md
+# TODO: Fix GLB and Image Paths for /Portfolio/ Base
 
-- [ ] Overwrite README.md with new professional content including About Me, Skills, Experience, Projects, and Contact sections based on personal data from constants/index.js.
+## Tasks
+- [ ] Update src/constants/index.js: Prefix all imgPath and modelPath with "/Portfolio/"
+- [ ] Update src/components/models/hero_models/Room.jsx: Change useGLTF, useTexture, and preload paths to include "/Portfolio/"
+- [ ] Update src/components/models/contact/Computer.jsx: Change useGLTF and preload paths to include "/Portfolio/"
+- [ ] Verify changes by running the app and checking model/texture loading

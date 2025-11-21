@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Rakthro" />
+              <img src="/Portfolio/images/project1.png" alt="Rakthro" />
             </div>
             <div className="text-content">
               <h2>
@@ -66,7 +66,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/Portfolio/images/project2.png"
                   alt="EvGuard"
                 />
               </div>
@@ -75,7 +75,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="Heallink" />
+                <img src="/Portfolio/images/project3.png" alt="Heallink" />
               </div>
               <h2>Heallink — Instant care, quick consults, and doorstep medicines.</h2>
             </div>
