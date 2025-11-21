@@ -77,7 +77,7 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/Portfolio/images/project3.png" alt="Heallink" />
               </div>
-              <h2>Heallink — Instant care, quick consults, and doorstep medicines.</h2>
+              <h2>Hangman — a standalone frontend game: delightfully simple.</h2>
             </div>
           </div>
         </div>
