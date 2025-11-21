@@ -57,7 +57,7 @@ const AppShowcase = () => {
                 Chronic Care & Hospitals
               </h2>
               <p className="text-white-50 md:text-xl">
-                AEngineered with a reliable Java backend and streamlined CSV modules handling donation cycles, disease-specific tracking, appointments, and admin operations — now transitioning into a scalable web-based solution.
+                Engineered with a reliable Java backend and streamlined CSV modules handling donation cycles, disease-specific tracking, appointments, and admin operations — now transitioning into a scalable web-based solution.
               </p>
             </div>
           </div>
