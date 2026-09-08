@@ -1,7 +1,6 @@
 import React, { Suspense, useRef, useState, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
-import emailjs from '@emailjs/browser';
 import { CheckCircle2, AlertCircle, ArrowRight } from 'lucide-react';
 
 // Component to load and display your 3D desk model
@@ -26,39 +25,51 @@ const Contact = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
     setIsSending(true);
     setFeedback({ type: '', message: '' });
 
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_e6a0yeb';
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_qdn52p8';
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'PoaQ_eCrZFqUFIAod';
+    if (!form.current) return;
+    const formData = new FormData(form.current);
+    const payload = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      message: formData.get('message'),
+      _honeypot: formData.get('_honeypot'),
+    };
 
-    emailjs.sendForm(
-      serviceId, 
-      templateId, 
-      form.current, 
-      publicKey
-    )
-    .then(() => {
-        setFeedback({
-          type: 'success',
-          message: "Message sent successfully! I'll get back to you soon."
-        });
-        if (form.current) {
-          form.current.reset();
-        }
-    }, (error) => {
-        setFeedback({
-          type: 'error',
-          message: "Something went wrong while sending. Please try again."
-        });
-        console.error("EmailJS Error:", error?.text || error);
-    })
-    .finally(() => {
-        setIsSending(false);
-    });
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data?.error || 'Failed to send message.');
+      }
+
+      setFeedback({
+        type: 'success',
+        message: "Message sent successfully! I'll get back to you soon."
+      });
+      if (form.current) {
+        form.current.reset();
+      }
+    } catch (error) {
+      setFeedback({
+        type: 'error',
+        message: error.message || "Something went wrong while sending. Please try again."
+      });
+      console.error("Contact Form Error:", error);
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
@@ -99,6 +110,16 @@ const Contact = () => {
                 <span>{feedback.message}</span>
               </div>
             )}
+
+            {/* Anti-bot Honeypot Trap (Hidden from human visitors) */}
+            <input 
+              type="text" 
+              name="_honeypot" 
+              tabIndex={-1} 
+              autoComplete="off" 
+              className="hidden" 
+              aria-hidden="true" 
+            />
             
             {/* Name Input */}
             <div className="flex flex-col gap-2">
